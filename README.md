@@ -45,7 +45,7 @@ Just download the file via zip file or fork my repository.
 #### API Reference
 
 ```html
-    <a href="https://www.themoviedb.org/documentation/api">
+    https://www.themoviedb.org/documentation/api
 ```
 [Back To The Top](#read-me-boxfilms)
 
