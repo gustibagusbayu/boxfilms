@@ -5,6 +5,7 @@
 > This is result web design.
 
 # [Link website](https://gustibagusbayu.github.io/boxfilms/)
+### New bug from mobile device is under construction!
 
 ---
 
