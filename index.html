@@ -1,250 +1,437 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <!-- glide -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css"
+    />
     <!-- my css -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <title>BoxFilm's | Streaming Film's Platform</title>
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container">
-              <a class="navbar-brand" href="#"><img class="img-fluid" src="./assets/logo/BoxFilm’s.svg" alt="logo" draggable="false"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <div class="dropdown">
-                        <a class="btn btn-outline-secondary" href="#" role="button" id="changeLanguage" data-bs-toggle="dropdown" aria-expanded="false">
-                          EN
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="changeLanguage">
-                          <li><a class="dropdown-item" href="#">Bahasa Indonesia</a></li>
-                          <li><a class="dropdown-item" href="#">English</a></li>
-                        </ul>
-                      </div>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">SUBSCRIBE</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">LOGIN</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="img-fluid"
+              src="./assets/logo/BoxFilm’s.svg"
+              alt="logo"
+              draggable="false"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a
+                    class="btn btn-outline-secondary"
+                    href="#"
+                    role="button"
+                    id="changeLanguage"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    EN
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="changeLanguage">
+                    <li>
+                      <a class="dropdown-item" href="#">Bahasa Indonesia</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">English</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SUBSCRIBE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section id="banner">
-            <div class="container glide">
-                <div class="glide__track" data-glide-el="track">
-                    <ul class="glide__slides">
-                        <li class="glide__slide">
-                            <div class="row slides">
-                                <img class="banner_img" src="./assets/images/main banner.svg" alt="The Falcon and The Winter Soldier" draggable="false">
-                                <div class="contents">
-                                    <h1>The Falcon and The Winter Soldier <span>(2021)</span></h1>
-                                    <p class="genre">Sci-Fi & Fantasy, Action & Adventure, Drama, War & Politics</p>
-                                    <p>Following the events of “Avengers: Endgame”, the Falcon, Sam Wilson and the Winter Soldier, Bucky Barnes team up in a global adventure that tests their abilities, and their patience.</p>
-                                    <a class="play_trailer" href="#" data-bs-toggle="modal" data-bs-target="#trailerModal1"><img class="trailer_btn" src="./assets/icons/trailer btn.svg" alt="trailer" draggable="false"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="row slides">
-                                <img class="banner_img" src="./assets/images/main banner 1.svg" alt="Voyagers" draggable="false">
-                                <div class="contents">
-                                    <h1>Voyagers <span>(2021)</span></h1>
-                                    <p class="genre">Science Fiction, Romance, Thriller</p>
-                                    <p>With the future of the human race at stake, a group of young men and women -- bred for intelligence and obedience -- embark on an expedition to colonize a distant planet. When they uncover disturbing secrets about the mission, they defy their training and begin to explore their most primitive natures. As life on the ship descends into chaos, they soon become consumed by fear, lust and an insatiable hunger for power.</p>
-                                    <a class="play_trailer" href="#" data-bs-toggle="modal" data-bs-target="#trailerModal2"><img class="trailer_btn" src="./assets/icons/trailer btn.svg" alt="trailer" draggable="false"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="row slides">
-                                <img class="banner_img" src="./assets/images/main banner 2.svg" alt="Godzilla vs. Kong" draggable="false">
-                                <div class="contents">
-                                    <h1>Godzilla vs. Kong <span>(2021)</span></h1>
-                                    <p class="genre">Science Fiction, Action, Drama</p>
-                                    <p>In a time when monsters walk the Earth, humanity’s fight for its future sets Godzilla and Kong on a collision course that will see the two most powerful forces of nature on the planet collide in a spectacular battle for the ages.</p>
-                                    <a class="play_trailer" href="#" data-bs-toggle="modal" data-bs-target="#trailerModal3"><img class="trailer_btn" src="./assets/icons/trailer btn.svg" alt="trailer" draggable="false"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="glide__slide">
-                            <div class="row slides">
-                                <img class="banner_img" src="./assets/images/main banner 3.svg" alt="Tom Clancy's Without Remorse" draggable="false">
-                                <div class="contents">
-                                    <h1>Tom Clancy's Without Remorse <span>(2021)</span></h1>
-                                    <p class="genre">Action, Adventure, Thriller, War</p>
-                                    <p>An elite Navy SEAL uncovers an international conspiracy while seeking justice for the murder of his pregnant wife.</p>
-                                    <a class="play_trailer"  href="#" data-bs-toggle="modal" data-bs-target="#trailerModal4"><img class="trailer_btn" src="./assets/icons/trailer btn.svg" alt="trailer" draggable="false"></a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
+      <section id="banner">
+        <div class="container glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="row slides">
+                  <img
+                    class="banner_img"
+                    src="./assets/images/main banner.svg"
+                    alt="The Falcon and The Winter Soldier"
+                    draggable="false"
+                  />
+                  <div class="contents">
+                    <h1>
+                      The Falcon and The Winter Soldier <span>(2021)</span>
+                    </h1>
+                    <p class="genre">
+                      Sci-Fi & Fantasy, Action & Adventure, Drama, War &
+                      Politics
+                    </p>
+                    <p>
+                      Following the events of “Avengers: Endgame”, the Falcon,
+                      Sam Wilson and the Winter Soldier, Bucky Barnes team up in
+                      a global adventure that tests their abilities, and their
+                      patience.
+                    </p>
+                    <a
+                      class="play_trailer"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#trailerModal1"
+                      ><img
+                        class="trailer_btn"
+                        src="./assets/icons/trailer btn.svg"
+                        alt="trailer"
+                        draggable="false"
+                    /></a>
+                  </div>
                 </div>
-                <!-- Modal -->
-                <div class="modal fade" data-modal-color="background" id="trailerModal1" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-trailer">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Play Trailer</h5>
-                            </div>
-                            <div class="modal-body">
-                                <iframe class="modal-src" src="https://www.youtube.com/embed/IWBsDaFWyTE" frameborder="0" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="glide__slide">
+                <div class="row slides">
+                  <img
+                    class="banner_img"
+                    src="./assets/images/main banner 1.svg"
+                    alt="Voyagers"
+                    draggable="false"
+                  />
+                  <div class="contents">
+                    <h1>Voyagers <span>(2021)</span></h1>
+                    <p class="genre">Science Fiction, Romance, Thriller</p>
+                    <p>
+                      With the future of the human race at stake, a group of
+                      young men and women -- bred for intelligence and obedience
+                      -- embark on an expedition to colonize a distant planet.
+                      When they uncover disturbing secrets about the mission,
+                      they defy their training and begin to explore their most
+                      primitive natures. As life on the ship descends into
+                      chaos, they soon become consumed by fear, lust and an
+                      insatiable hunger for power.
+                    </p>
+                    <a
+                      class="play_trailer"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#trailerModal2"
+                      ><img
+                        class="trailer_btn"
+                        src="./assets/icons/trailer btn.svg"
+                        alt="trailer"
+                        draggable="false"
+                    /></a>
+                  </div>
                 </div>
-                <div class="modal fade" data-modal-color="background" id="trailerModal2" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-trailer">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Play Trailer</h5>
-                            </div>
-                            <div class="modal-body">
-                                <iframe class="modal-src" src="https://www.youtube.com/embed/EwJkexUBSeg" frameborder="0" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="glide__slide">
+                <div class="row slides">
+                  <img
+                    class="banner_img"
+                    src="./assets/images/main banner 2.svg"
+                    alt="Godzilla vs. Kong"
+                    draggable="false"
+                  />
+                  <div class="contents">
+                    <h1>Godzilla vs. Kong <span>(2021)</span></h1>
+                    <p class="genre">Science Fiction, Action, Drama</p>
+                    <p>
+                      In a time when monsters walk the Earth, humanity’s fight
+                      for its future sets Godzilla and Kong on a collision
+                      course that will see the two most powerful forces of
+                      nature on the planet collide in a spectacular battle for
+                      the ages.
+                    </p>
+                    <a
+                      class="play_trailer"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#trailerModal3"
+                      ><img
+                        class="trailer_btn"
+                        src="./assets/icons/trailer btn.svg"
+                        alt="trailer"
+                        draggable="false"
+                    /></a>
+                  </div>
                 </div>
-                <div class="modal fade" data-modal-color="background" id="trailerModal3" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-trailer">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Play Trailer</h5>
-                            </div>
-                            <div class="modal-body">
-                                <iframe class="modal-src" src="https://www.youtube.com/embed/Q7kcGW-rNuA" frameborder="0" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+              <li class="glide__slide">
+                <div class="row slides">
+                  <img
+                    class="banner_img"
+                    src="./assets/images/main banner 3.svg"
+                    alt="Tom Clancy's Without Remorse"
+                    draggable="false"
+                  />
+                  <div class="contents">
+                    <h1>Tom Clancy's Without Remorse <span>(2021)</span></h1>
+                    <p class="genre">Action, Adventure, Thriller, War</p>
+                    <p>
+                      An elite Navy SEAL uncovers an international conspiracy
+                      while seeking justice for the murder of his pregnant wife.
+                    </p>
+                    <a
+                      class="play_trailer"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#trailerModal4"
+                      ><img
+                        class="trailer_btn"
+                        src="./assets/icons/trailer btn.svg"
+                        alt="trailer"
+                        draggable="false"
+                    /></a>
+                  </div>
                 </div>
-                <div class="modal fade" data-modal-color="background" id="trailerModal4" tabindex="-1" aria-labelledby="trailerModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg modal-trailer">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">Play Trailer</h5>
-                            </div>
-                            <div class="modal-body">
-                                <iframe class="modal-src" src="https://www.youtube.com/embed/JiftfwPCHRY" frameborder="0" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-                    </div>
+              </li>
+            </ul>
+          </div>
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            data-modal-color="background"
+            id="trailerModal1"
+            tabindex="-1"
+            aria-labelledby="trailerModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-trailer">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Play Trailer</h5>
                 </div>
-                <!-- End Modal -->
+                <div class="modal-body">
+                  <iframe
+                    class="modal-src"
+                    src="https://www.youtube.com/embed/IWBsDaFWyTE"
+                    frameborder="0"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+          <div
+            class="modal fade"
+            data-modal-color="background"
+            id="trailerModal2"
+            tabindex="-1"
+            aria-labelledby="trailerModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-trailer">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Play Trailer</h5>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    class="modal-src"
+                    src="https://www.youtube.com/embed/EwJkexUBSeg"
+                    frameborder="0"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            data-modal-color="background"
+            id="trailerModal3"
+            tabindex="-1"
+            aria-labelledby="trailerModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-trailer">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Play Trailer</h5>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    class="modal-src"
+                    src="https://www.youtube.com/embed/Q7kcGW-rNuA"
+                    frameborder="0"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="modal fade"
+            data-modal-color="background"
+            id="trailerModal4"
+            tabindex="-1"
+            aria-labelledby="trailerModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-lg modal-trailer">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Play Trailer</h5>
+                </div>
+                <div class="modal-body">
+                  <iframe
+                    class="modal-src"
+                    src="https://www.youtube.com/embed/JiftfwPCHRY"
+                    frameborder="0"
+                    allowfullscreen
+                  >
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End Modal -->
+        </div>
+      </section>
 
-        <section id="search">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 search">
-                        <input type="text" class="form-control search_input" placeholder="Search">
-                        <img class="search_icon" src="./assets/icons/search.svg" alt="search">
-                    </div>
-                    <div class="col-md-6 link">
-                        <div class="link_section">
-                            <a href="#trending">Trending</a>
-                            <a href="#popular">What’s Popular</a>
-                            <a href="#rated ">High Rated</a>
-                        </div>
-                    </div>
-                </div>
+      <section id="search">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 search">
+              <input
+                type="text"
+                class="form-control search_input"
+                placeholder="Search"
+              />
+              <img
+                class="search_icon"
+                src="./assets/icons/search.svg"
+                alt="search"
+              />
             </div>
-        </section>
+            <div class="col-md-6 link">
+              <div class="link_section">
+                <a href="#trending">Trending</a>
+                <a href="#popular">What’s Popular</a>
+                <a href="#rated ">High Rated</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <section id="trending">
-            <div class="container">
-                <div class="row title_trending">
-                    <h1>Trending</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="poster_container trending_container">
-                </div>
-            </div>
-        </section>
+      <section id="trending">
+        <div class="container">
+          <div class="row title_trending">
+            <h1>Trending</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="poster_container trending_container"></div>
+        </div>
+      </section>
 
-        <section id="popular">
-            <div class="container">
-                <div class="row title_popular">
-                    <h1>Popular</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="poster_container popular_container">
-                </div>
-            </div>
-        </section>
+      <section id="popular">
+        <div class="container">
+          <div class="row title_popular">
+            <h1>Popular</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="poster_container popular_container"></div>
+        </div>
+      </section>
 
-        <section id="rated">
-            <div class="container">
-                <div class="row title_rated">
-                    <h1>High Rated</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="poster_container rated_container">
-                </div>
-            </div>
-        </section>
+      <section id="rated">
+        <div class="container">
+          <div class="row title_rated">
+            <h1>High Rated</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="poster_container rated_container"></div>
+        </div>
+      </section>
     </main>
     <footer>
-        <section id="footer">
-            <div class="container">
-                <div class="row title_rated">
-                    <img src="./assets/logo/BoxFilm’s.svg" alt="logo">
-                </div>
-                <div class="row credit">
-                    <div class="col-md-3 support">
-                        <h6>Support</h6>
-                        <a href="#">Privacy & Policy</a>
-                        <a href="#">Term & Conditions</a>
-                        <a href="#">Support System</a>
-                    </div>
-                    <div class="col-md-2 services">
-                        <h6>Our Services</h6>
-                        <a href="#">About Us</a>
-                        <a href="#">Design Services</a>
-                        <a href="#">API Services</a>
-                    </div>
-                    <div class="col-md-3 contact">
-                        <h6>Contact Us</h6>
-                        <a href="#"><img src="./assets/icons/instagram.svg" alt="instagram"></a>
-                        <a href="#"><img src="./assets/icons/facebook.svg" alt="facebook"></a>
-                        <a href="#"><img src="./assets/icons/twitter.svg" alt="twitter"></a>
-                        <a href="#"><img src="./assets/icons/email.svg" alt="email"></a>
-                    </div>
-                    <div class="col-md-4 download">
-                        <h6>Download BoxFilm's App</h6>
-                        <a href="#"><img src="./assets/icons/andoid.svg" alt="andoid"></a>
-                        <a href="#"><img src="./assets/icons/apple.svg" alt="apple"></a>
-                    </div>
-                </div>
-                <p class="copyright">Copyright 2021 Made with ❤ padlabs.id</p>
+      <section id="footer">
+        <div class="container">
+          <div class="row title_rated">
+            <img src="./assets/logo/BoxFilm’s.svg" alt="logo" />
+          </div>
+          <div class="row credit">
+            <div class="col-md-3 support">
+              <h6>Support</h6>
+              <a href="#">Privacy & Policy</a>
+              <a href="#">Term & Conditions</a>
+              <a href="#">Support System</a>
             </div>
-        </section>
+            <div class="col-md-2 services">
+              <h6>Our Services</h6>
+              <a href="#">About Us</a>
+              <a href="#">Design Services</a>
+              <a href="#">API Services</a>
+            </div>
+            <div class="col-md-3 contact">
+              <h6>Contact Us</h6>
+              <a href="#"
+                ><img src="./assets/icons/instagram.svg" alt="instagram"
+              /></a>
+              <a href="#"
+                ><img src="./assets/icons/facebook.svg" alt="facebook"
+              /></a>
+              <a href="#"
+                ><img src="./assets/icons/twitter.svg" alt="twitter"
+              /></a>
+              <a href="#"><img src="./assets/icons/email.svg" alt="email" /></a>
+            </div>
+            <div class="col-md-4 download">
+              <h6>Download BoxFilm's App</h6>
+              <a href="#"
+                ><img src="./assets/icons/andoid.svg" alt="andoid"
+              /></a>
+              <a href="#"><img src="./assets/icons/apple.svg" alt="apple" /></a>
+            </div>
+          </div>
+          <p class="copyright">Copyright 2021 Made with ❤ padlabs.id</p>
+        </div>
+      </section>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
     <!-- gsap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
