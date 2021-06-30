@@ -377,12 +377,12 @@ body {
     line-height: 20px;
   }
   .contents .genre {
-    font-size: 6px;
+    font-size: 5px;
     margin-top: 8px;
     margin-bottom: 0;
   }
   .contents p {
-    font-size: 8px;
+    font-size: 6px;
     line-height: 10px;
     margin-top: 8px;
     margin-bottom: 10px;
@@ -400,7 +400,7 @@ body {
   }
   .search_icon {
     margin-top: -1.8rem;
-    margin-left: 19.5rem;
+    margin-left: 18.8rem;
     position: absolute;
   }
   .link_section {
