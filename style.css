@@ -352,6 +352,7 @@ body {
     z-index: 1;
     opacity: 0;
     transition: all 0.5s;
+    display: none;
   }
   .navbar .navbar-nav.slide {
     opacity: 1;
@@ -368,7 +369,7 @@ body {
     width: 100%;
   }
   .contents {
-    margin-top: 13.7rem;
+    margin-top: 14rem;
     left: 130px !important;
   }
   .contents h1 {
