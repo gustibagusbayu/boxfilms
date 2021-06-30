@@ -8,6 +8,14 @@ new Glide(".glide", {
   perView: 1,
 }).mount();
 
+// navbar
+const menuToggle = document.querySelector(".menu-toggle input");
+const nav = document.querySelector(".navbar .navbar-nav");
+
+menuToggle.addEventListener("click", function () {
+  nav.classList.toggle("slide");
+});
+
 // show movies
 const BASE_URL = `https://api.themoviedb.org/3`;
 const API_KEY = `cdcbdcac2837a7886f31841cf04b185d`;
